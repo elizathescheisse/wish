@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  background-color: blueviolet;
+}
+
+.home {
+  padding: 3%;
+  align-self: center;
+}
+
+.home:active {
+  color: black;
+}
+
+h1 {
+  color: white;
+  padding-left: 2%;
+  font-size: 1.5rem;
+  align-self: center;
+  font-family: 'Indie Flower', cursive, 'Helvetica', sans-serif;
+}

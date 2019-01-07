@@ -1,0 +1,40 @@
+.friend {
+  min-width: 17rem;
+  min-height: 5rem;
+  border-radius: 10px;
+  margin: 1.1rem;
+  box-shadow: 3px 5px 15px 1px #999999;
+  background-color: blueviolet; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, mediumslateblue, dodgerblue); /* Standard syntax (must be last) */
+}
+
+.birthday {
+  color: gray;
+  border-radius: 10px 10px 0 0;
+  background-color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.gifts {
+  background-color: #f6f6f6;
+  padding-bottom: 1rem;
+  border-radius: 0 0 10px 10px;
+}
+
+h3 {
+  color: mediumslateblue;
+  font-weight: bold;
+}
+
+.price {
+  color: gray;
+}

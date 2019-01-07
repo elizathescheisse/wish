@@ -1,0 +1,18 @@
+.friend-list {
+  text-align: center;
+  padding: 2rem;
+}
+
+.friends {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}

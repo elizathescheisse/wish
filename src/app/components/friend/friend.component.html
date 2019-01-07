@@ -1,0 +1,24 @@
+<div class="friend">
+  <div class="birthday">
+    <p>
+      {{friend.birthday}}
+    </p>
+  </div>
+
+  <div>
+    <a routerLink="/details/{{friend.id}}">
+      {{friend.name}}
+    </a>
+
+    <div class="gifts">
+      <h3>Top Gift Ideas</h3>
+
+      <div *ngFor="let wish of friend.wishlist">
+        <p>
+          {{wish.name}}
+          <span class="price">{{wish.price | currency }}</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<div class="friend-list">
+  <h2>Upcoming Birthdays</h2>
+  
+  <div class="friends">
+    <app-friend
+      *ngFor="let friend of friends"
+      [friend]="friend">
+    </app-friend>
+  </div>
+</div>
